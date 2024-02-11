@@ -6,22 +6,22 @@ export default function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_g4jxybc",
-        "template_c9kq9u7",
-        form.current,
-        "g5KfgP6FJKpmtRuTk"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          console.log("message sent");
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    // emailjs
+    //   .sendForm(
+    //     "service_g4jxybc",
+    //     "template_c9kq9u7",
+    //     form.current,
+    //     "g5KfgP6FJKpmtRuTk"
+    //   )
+    //   .then(
+    //     (result) => {
+    //       console.log(result.text);
+    //       console.log("message sent");
+    //     },
+    //     (error) => {
+    //       console.log(error.text);
+    //     }
+    //   );
   };
   return (
     <section className="py-10 w-screen">
