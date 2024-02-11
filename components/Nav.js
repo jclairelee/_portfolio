@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+
 export default function Nav() {
   return (
     <nav className="flex items-center justify-center mx-auto md:px-20 lg:px-40 w-screen pt-3.5 pb-3.5">

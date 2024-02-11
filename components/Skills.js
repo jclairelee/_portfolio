@@ -10,9 +10,9 @@ import js from "../public/logos/javascript.png";
 import sass from "../public/logos/sass.png";
 import mysql from "../public/logos/mysql.png";
 import node from "../public/logos/node.png";
-import react from "../public/logos/react.png";
+import react from "../public/logos/React.png";
 import html from "../public/logos/html.png";
-import ts from "../public/logos/ts.png";
+import ts from "../public/logos/Ts.png";
 
 export default function Skills() {
   return (

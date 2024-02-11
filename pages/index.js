@@ -39,7 +39,7 @@ export default function Home() {
         <section className="bg-gray-100 w-full-screen h-full-screen">
           <Games />
         </section>
-        <section className="bg-pink-400 w-full-screen h-full-screen">
+        <section className="bg-pink-4h00 w-full-screen h-full-screen">
           <Contact />
         </section>
       </main>
