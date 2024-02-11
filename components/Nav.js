@@ -4,7 +4,7 @@ export default function Nav() {
   return (
     <nav className="flex items-center justify-center mx-auto md:px-20 lg:px-40 w-screen pt-3.5 pb-3.5">
       <div className="pr-20">
-        <img className="w-16 cursor-pointer" src="#" alt="logo" />
+        <Image className="w-16 cursor-pointer" src="#" alt="logo" />
       </div>
       <div className="nav-links duration-500 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto  w-full flex items-center px-5">
         <ul className="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
