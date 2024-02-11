@@ -29,27 +29,30 @@ export default function Contact() {
         <h3 className="text-3xl py-1 text-black dark:text-white ">Contact</h3>
         <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
           Since the beginning of my journey as a freelance designer and
-          developer, I've done remote work for
+          developer {","} Ive done remote work for
           <span className="text-teal-500"> agencies </span>
           consulted for <span className="text-teal-500">startups </span>
           and collaborated with talanted people to create digital products for
           both business and consumer use.
         </p>
         <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-          I offer from a wide range of services, including brand design,
-          programming and teaching.
+          I offer from a wide range of services {","} including brand design{" "}
+          {","}
+          programming and teaching{"."}
         </p>
       </div>
 
       <h1>Contact</h1>
       <ul>
         <li>
-          <h2>Let's chat.</h2>
+          <h2>
+            Let{"&apos;"}s chat{"."}
+          </h2>
           <p>
-            I'd love to hear from you! Don't hesitate to send me a
-            message—whether you have thoughts to share or feedback, it's all
-            welcomed. I'll respond as soon as possible. Looking forward to
-            connecting with you!
+            I{"&apos;"}d love to hear from you! Don{"&apos;"}t hesitate to send
+            me a message—whether you have thoughts to share or feedback {","} it
+            {"&apos;"}s all welcomed. I{"&apos;"}ll respond as soon as possible.
+            Looking forward to connecting with you{"!"}
           </p>
         </li>
         <li>
