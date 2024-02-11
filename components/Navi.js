@@ -24,11 +24,11 @@ export default function Navi(props) {
     <div
       className={`md:px-20 lg:px-40 pb-5 pt-5 dark:text-white ${
         isScrolled
-          ? "bg-gray-800 bg-opacity-90 fixed top-0 w-full z-99 dark:text-white"
+          ? "bg-gray-800 bg-opacity-90 fixed top-0 w-full z-10000 dark:text-white"
           : "bg-teal-300 text-black"
       }`}
     >
-      <ul className="flex items-center justify-between">
+      <ul className="flex items-center justify-between relative">
         <h1 className=" flex grow font-sans text-xl">Claire Lee</h1>
         <li className="flex shrink">
           <BsFillMoonStarsFill

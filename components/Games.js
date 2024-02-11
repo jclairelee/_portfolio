@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Games() {
   return (
-    <section className="py-10 w-screen h-screen ">
+    <section className="py-10 w-screen ">
       <div>
         <h3 className="text-3xl py-1 dark:text-white ">Mini Game</h3>
         <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
@@ -24,7 +24,7 @@ export default function Games() {
           src="https://clairemolegame.netlify.app/"
           width="100%"
           height="100%"
-          frameborder="0"
+          frameBorder="0"
           scrolling="no"
         ></iframe>
 
@@ -32,7 +32,7 @@ export default function Games() {
           src="https://claire-todo.netlify.app"
           width="100%"
           height="100%"
-          frameborder="0"
+          frameBorder="0"
           scrolling="no"
         ></iframe>
 
@@ -40,9 +40,9 @@ export default function Games() {
           src="https://quiz-app-cl.netlify.app"
           width="100%"
           height="100%"
-          frameborder="0"
+          frameBorder="0"
           scrolling="no"
-        ></iframe>
+        />
       </div>
     </section>
   );
