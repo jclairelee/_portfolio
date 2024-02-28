@@ -25,14 +25,13 @@ export default function Portfolio() {
           programming and teaching{"."}
         </p>
       </div>
-      <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+      <div className="flex sm:flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
         <div className="basis-1/3 flex-1 ">
           <Image
             className="rounded-lg object-cover"
             alt="project-one"
             width={"100%"}
             height={"100%"}
-            layout="responsive"
             src={web1}
           />
         </div>
@@ -42,7 +41,6 @@ export default function Portfolio() {
             alt="project-two"
             width={"100%"}
             height={"100%"}
-            layout="responsive"
             src={web2}
           />
         </div>
@@ -52,7 +50,6 @@ export default function Portfolio() {
             alt="project-three"
             width={"100%"}
             height={"100%"}
-            layout="responsive"
             src={web3}
           />
         </div>
@@ -62,7 +59,6 @@ export default function Portfolio() {
             alt="project-four"
             width={"100%"}
             height={"100%"}
-            layout="responsive"
             src={web4}
           />
         </div>
@@ -72,7 +68,6 @@ export default function Portfolio() {
             alt="project-five"
             width={"100%"}
             height={"100%"}
-            layout="responsive"
             src={web7}
           />
         </div>
@@ -82,7 +77,6 @@ export default function Portfolio() {
             alt="project-six"
             width={"100%"}
             height={"100%"}
-            layout="responsive"
             src={web8}
           />
         </div>

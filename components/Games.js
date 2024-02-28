@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 
 export default function Games() {
   return (
@@ -19,29 +18,23 @@ export default function Games() {
           programming and teaching{"."}
         </p>
       </div>
-      <div className="flex gap-10 py-10 lg:flex-row h-full">
+      <div className="flex flex-col gap-10 py-10 lg:flex-row h-full">
         <iframe
           src="https://clairemolegame.netlify.app/"
           width="100%"
           height="100%"
-          frameBorder="0"
-          scrolling="no"
         ></iframe>
 
         <iframe
           src="https://claire-todo.netlify.app"
           width="100%"
           height="100%"
-          frameBorder="0"
-          scrolling="no"
         ></iframe>
 
         <iframe
           src="https://quiz-app-cl.netlify.app"
           width="100%"
           height="100%"
-          frameBorder="0"
-          scrolling="no"
         />
       </div>
     </section>

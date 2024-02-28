@@ -26,20 +26,20 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Nav />
-      <main className="dark:bg-gray-900 w-full-screen h-full-screen">
-        <section className="min-h-screen w-full-screen bg-gradient-to-t from-[#fbc2eb] to-[#a6c1ee]">
+      <main className="bg-gray-900 w-full-screen h-full-screen">
+        <section className="min-h-screen w-full-screen">
           <Hero />
         </section>
-        <section className="bg-gray-100 w-full-screen h-full-screen">
+        <section className="bg-gray-900 w-full-screen h-full-screen">
           <Skills />
         </section>
-        <section className="bg-indigo-400 w-full-screen h-full-screen">
+        <section className="bg-gray-900 w-full-screen h-full-screen">
           <Portfolio />
         </section>
-        <section className="bg-gray-100 w-full-screen h-full-screen">
+        <section className="bg-gray-900 w-full-screen h-full-screen">
           <Games />
         </section>
-        <section className="bg-pink-4h00 w-full-screen h-full-screen">
+        <section className="bg-gray-900 w-full-screen h-full-screen">
           <Contact />
         </section>
       </main>

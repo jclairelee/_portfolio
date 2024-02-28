@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 export default function Nav() {
   const [menuState, setMenuState] = useState("menu");
   const [menuClicked, setMenuClicked] = useState(false);
-  const isMobile = useMediaQuery({ maxWidth: 767 });
+  const isMobile = useMediaQuery({ maxWidth: 7670 });
 
   useEffect(() => {
     // Do something with the screen size information
@@ -55,7 +55,7 @@ export default function Nav() {
     { label: "Contact", url: "/" },
   ];
   return (
-    <nav className="flex items-center justify-center bg-[white] lg:fixed mx-auto md:px-20 lg:px-40 w-screen pt-3.5 pb-3.5">
+    <nav className="flex items-center justify-between lg:fixed mx-auto md:px-20 lg:px-40 w-screen pt-3.5 pb-3.5">
       <div className="pr-20"></div>
       {isMobile && (
         <motion.div
@@ -69,7 +69,13 @@ export default function Nav() {
               menuState === "close" ? "left-0" : "left-[-100%]"
             }`}
           >
-            <ul className="flex md:flex-row flex-col md:items-center md:gap-[4vw] justify-center items-center gap-11 text-white text-4xl font-comfortaa group relative">
+            <ul
+              className={`flex md:flex-row flex-col md:items-center md:gap-[4vw] justify-center items-center ${
+                menuState === "close"
+                  ? "gap-11 text-white text-4xl font-comfortaa group relative"
+                  : "text-black"
+              }`}
+            >
               {menuItems.map((item, index) => (
                 <li
                   key={index}
@@ -92,18 +98,22 @@ export default function Nav() {
           menuState === "close" ? "invisible" : ""
         } flex items-center pl-20`}
       >
-        <button className="bg-[#a6c1ee] text-white px-5 py-2 rounded-full hover:bg-[#87acec]">
+        <button className="bg-[#080f1c] text-white px-5 py-2 rounded-full hover:bg-[#87acec]">
           Resume
         </button>
       </div>
       <div className="flex items-center gap-6" onClick={onToggleMenu}>
         <Image
           src={menuState === "menu" ? menu : close}
-          style={{ objectFit: "cover", objectPosition: "50% 50%" }}
+          style={{
+            objectFit: "cover",
+            filter: "drop-shadow(5px 5px 0 pink) hue-rotate(180deg)",
+            objectPosition: "50% 50%",
+          }}
           alt="Menu Image"
           width={50}
           height={50}
-          className="text-3xl cursor-pointer md:hidden"
+          className="text-3xl cursor-pointer md:hidden gb-white-900"
         />
       </div>
     </nav>

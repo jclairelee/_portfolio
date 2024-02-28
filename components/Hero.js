@@ -9,9 +9,7 @@ import { a } from "../public/coder.png";
 export default function Hero() {
   return (
     <div className="text-center p-10 py-10">
-      <div className="mx-auto bg-gradient-to-b from-teal-100 rounded-full w-80 h-80 z-999 relative overflow-hidden mt-20 md:h-96 md:w-96">
-        {/* <Image src={a} layout="fill" objectFit="cover" /> */}
-      </div>
+      <div className="mx-auto bg-gradient-to-b from-teal-100 rounded-full w-80 h-80 z-999 relative overflow-hidden mt-20 md:h-96 md:w-96"></div>
 
       <h2 className="text-5xl py-2 text-indigo-500 font-medium dark:text-teal-400 md:text-6xl">
         Claire Lee
